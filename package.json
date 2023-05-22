@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "@extend-chrome/clipboard": "^2.0.0",
+    "chai-colors": "^1.0.1"
+  },
+  "devDependencies": {
+    "@shelex/cypress-allure-plugin": "^2.39.0",
+    "cypress": "^12.12.0",
+    "cypress-wait-until": "^1.7.2",
+    "cypress-xpath": "^2.0.1"
+  },
+  "scripts": {
+    "allure:report": "allure generate allure-results --clean -o allure-report"
+  }
+}
